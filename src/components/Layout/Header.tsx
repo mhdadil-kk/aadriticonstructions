@@ -65,11 +65,12 @@ const Header: React.FC = () => {
       <nav className={`w-full bg-red-600 transition-all duration-300 ${isMobileMenuOpen ? 'max-h-screen' : 'max-h-0 lg:max-h-full'} lg:block overflow-hidden`}>
         <div className="container mx-auto">
           <ul className="lg:flex lg:justify-center">
-            {[
+            {[ 
               { label: 'Home', path: '/' },
               { label: 'Know Us', path: '/know-us' },
               { label: 'Services', path: '/services' },
               { label: 'Projects', path: '/projects' },
+              { label: 'Philanthropy', path: '/philanthropy' },
               { label: 'Our Journey', path: '/timeline' },
               { label: 'Contact', path: '/contact' }
             ].map((item) => (

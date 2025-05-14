@@ -10,6 +10,7 @@ import KnowUsPage from './pages/KnowUsPage';
 import ServicesPage from './pages/ServicesPage';
 import TimelinePage from './pages/TimelinePage';
 import ContactPage from './pages/ContactPage';
+import PhilanthropyPage from './pages/PhilanthropyPage'; // 🆕 Import added
 import WhatsAppButton from './components/UI/WhatsAppButton';
 import Loader from './components/UI/Loader';
 import NotFoundPage from './pages/404';
@@ -22,8 +23,9 @@ function AppContent() {
     document.title = 'Aadriti Constructions - The Next Era';
   }, []);
 
+  // ✅ Include /philanthropy in the valid path list
   const isNotFound =
-    !['/', '/projects', '/know-us', '/services', '/timeline', '/contact'].includes(location.pathname) &&
+    !['/', '/projects', '/know-us', '/services', '/timeline', '/contact', '/philanthropy'].includes(location.pathname) &&
     !/^\/projects\/[^/]+$/.test(location.pathname);
 
   return (
@@ -40,6 +42,7 @@ function AppContent() {
           <Route path="/services" element={<ServicesPage />} />
           <Route path="/timeline" element={<TimelinePage />} />
           <Route path="/contact" element={<ContactPage />} />
+          <Route path="/philanthropy" element={<PhilanthropyPage />} /> 
           <Route path="*" element={<NotFoundPage />} />
         </Routes>
 

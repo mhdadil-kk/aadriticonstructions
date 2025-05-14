@@ -1,23 +1,25 @@
 import React from 'react';
 import { ChevronRight, Facebook, Instagram, Twitter, Linkedin } from 'lucide-react';
-import type { FooterLink, SocialLink } from '../../types';
 import { Link } from 'react-router-dom';
+import type { FooterLink, SocialLink } from '../../types';
 
 const Footer: React.FC = () => {
   const quickLinks: FooterLink[] = [
-    { label: 'Home', href: '#home' },
+    { label: 'Home', href: '/' },
     { label: 'Know Us', href: '/know-us' },
-    { label: 'Services', href: '#services' },
+    { label: 'Services', href: '/services' },
     { label: 'Projects', href: '/projects' },
-    { label: 'Contact', href: '#contact' }
+    { label: 'Contact', href: '/contact' },
+    { label: 'Philanthropy', href: '/philanthropy' } 
   ];
 
   const projectLinks: FooterLink[] = [
-    { label: 'Aadriti Blossoms', href: '/projects/blossoms' },
-    { label: 'The Nivaasa', href: '/projects/nivaasa' },
-    { label: 'Aira', href: '/projects/aira' },
-    { label: 'Villas @ Thorrur', href: '/projects/villas-thorrur' },
-    { label: 'Niravana', href: '/projects/niravana' }
+    { label: 'The Nivaasa', href: '/projects/1' },
+    { label: 'Stand Alone Villa', href: '/projects/2' },
+    { label: 'Aira', href: '/projects/3' },
+    { label: 'Aadriti Blossoms', href: '/projects/4' },
+    { label: 'Niravana', href: '/projects/5' },
+    { label: 'Uno Villa', href: '/projects/6' }
   ];
 
   const socialLinks: SocialLink[] = [
@@ -29,68 +31,32 @@ const Footer: React.FC = () => {
 
   const renderSocialIcon = (icon: string) => {
     switch (icon) {
-      case 'facebook':
-        return <Facebook className="w-5 h-5" />;
-      case 'instagram':
-        return <Instagram className="w-5 h-5" />;
-      case 'twitter':
-        return <Twitter className="w-5 h-5" />;
-      case 'linkedin':
-        return <Linkedin className="w-5 h-5" />;
-      default:
-        return null;
+      case 'facebook': return <Facebook className="w-5 h-5" />;
+      case 'instagram': return <Instagram className="w-5 h-5" />;
+      case 'twitter': return <Twitter className="w-5 h-5" />;
+      case 'linkedin': return <Linkedin className="w-5 h-5" />;
+      default: return null;
     }
   };
 
-  const handleLinkClick = () => {
-    window.scrollTo(0, 0);
-  };
+  const handleLinkClick = () => window.scrollTo(0, 0);
 
   return (
-    <footer className="bg-gray-900 pt-16 pb-6">
+    <footer className="bg-gray-900 pt-16 pb-6 text-sm">
       <div className="container mx-auto px-5">
         <div className="grid md:grid-cols-3 gap-10 mb-8">
+          {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold text-white mb-6 inline-block relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-10 after:h-0.5 after:bg-red-600 pb-2">
+            <h3 className="text-xl font-semibold text-white mb-6 relative pb-2 after:absolute after:bottom-0 after:left-0 after:w-10 after:h-0.5 after:bg-red-600">
               Quick Links
             </h3>
             <ul>
               {quickLinks.map((link, index) => (
                 <li key={index} className="mb-3">
-                  {link.href.startsWith('#') ? (
-                    <a 
-                      href={link.href} 
-                      className="text-gray-400 hover:text-red-500 transition-colors duration-300 inline-flex items-center"
-                    >
-                      <ChevronRight className="w-4 h-4 mr-2" />
-                      {link.label}
-                    </a>
-                  ) : (
-                    <Link 
-                      to={link.href} 
-                      className="text-gray-400 hover:text-red-500 transition-colors duration-300 inline-flex items-center"
-                      onClick={handleLinkClick}
-                    >
-                      <ChevronRight className="w-4 h-4 mr-2" />
-                      {link.label}
-                    </Link>
-                  )}
-                </li>
-              ))}
-            </ul>
-          </div>
-          
-          <div>
-            <h3 className="text-xl font-semibold text-white mb-6 inline-block relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-10 after:h-0.5 after:bg-red-600 pb-2">
-              Projects
-            </h3>
-            <ul>
-              {projectLinks.map((link, index) => (
-                <li key={index} className="mb-3">
                   <Link 
                     to={link.href} 
-                    className="text-gray-400 hover:text-red-500 transition-colors duration-300 inline-flex items-center"
                     onClick={handleLinkClick}
+                    className="text-gray-400 hover:text-red-500 transition-colors duration-300 inline-flex items-center"
                   >
                     <ChevronRight className="w-4 h-4 mr-2" />
                     {link.label}
@@ -99,32 +65,53 @@ const Footer: React.FC = () => {
               ))}
             </ul>
           </div>
-          
+
+          {/* Project Links */}
           <div>
-            <h3 className="text-xl font-semibold text-white mb-6 inline-block relative after:content-[''] after:absolute after:bottom-0 after:left-0 after:w-10 after:h-0.5 after:bg-red-600 pb-2">
-              Connect With Us
+            <h3 className="text-xl font-semibold text-white mb-6 relative pb-2 after:absolute after:bottom-0 after:left-0 after:w-10 after:h-0.5 after:bg-red-600">
+              Projects
             </h3>
-            <div className="flex gap-4">
-              {socialLinks.map((link, index) => (
-                <a 
-                  key={index}
-                  href={link.href} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="w-10 h-10 bg-opacity-5 bg-white rounded-full flex items-center justify-center text-gray-400 hover:bg-red-600 hover:text-white transition-all duration-300 hover:transform hover:-translate-y-1"
-                  aria-label={link.platform}
-                >
-                  {renderSocialIcon(link.icon)}
-                </a>
+            <ul>
+              {projectLinks.map((link, index) => (
+                <li key={index} className="mb-3">
+                  <Link 
+                    to={link.href} 
+                    onClick={handleLinkClick}
+                    className="text-gray-400 hover:text-red-500 transition-colors duration-300 inline-flex items-center"
+                  >
+                    <ChevronRight className="w-4 h-4 mr-2" />
+                    {link.label}
+                  </Link>
+                </li>
               ))}
-            </div>
+            </ul>
+          </div>
+
+          {/* Social Links */}
+          <div>
+            <h3 className="text-xl font-semibold text-white mb-6 relative pb-2 after:absolute after:bottom-0 after:left-0 after:w-10 after:h-0.5 after:bg-red-600">
+              Follow Us
+            </h3>
+            <ul className="flex space-x-4">
+              {socialLinks.map((social, index) => (
+                <li key={index}>
+                  <a 
+                    href={social.href} 
+                    target="_blank" 
+                    rel="noopener noreferrer"
+                    className="text-gray-400 hover:text-white transition-colors duration-300"
+                    aria-label={social.platform}
+                  >
+                    {renderSocialIcon(social.icon)}
+                  </a>
+                </li>
+              ))}
+            </ul>
           </div>
         </div>
-        
-        <div className="border-t border-gray-800 pt-6 mt-6">
-          <p className="text-gray-500 text-sm text-center">
-            © {new Date().getFullYear()} Aadriti Constructions Private Limited. All Rights Reserved.
-          </p>
+
+        <div className="text-center text-gray-500 text-xs border-t border-gray-700 pt-5">
+          © {new Date().getFullYear()} Aadriti Constructions. All rights reserved.
         </div>
       </div>
     </footer>
