@@ -90,7 +90,7 @@ const ContactPage = () => {
           <div className="grid md:grid-cols-2">
             <div className="h-[400px] md:h-[600px]">
               <iframe 
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3619.35363641596!2d78.5152785!3d17.3753574!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb99a00a1ffecf%3A0x46e0ef9dede1d5b9!2sAadriti%20Constructions%20Pvt%20Ltd!5e1!3m2!1sen!2sin!4v1745477719323!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3621.5777188149227!2d78.59446907493171!3d17.262483283603515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcba1f7fbb6b1e3%3A0xfb06762b1bbc3811!2stirumala%20supermarket!5e1!3m2!1sen!2sin!4v1747227779385!5m2!1sen!2sin"
                 className="w-full h-full border-0"
                 allowFullScreen
                 loading="lazy"

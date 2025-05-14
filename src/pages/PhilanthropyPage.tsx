@@ -55,14 +55,35 @@ const PhilanthropyPage = () => {
     ];
 
     const initiatives = [
-        { icon: BookOpen, text: "Supporting underprivileged children’s education through scholarships and school supplies, enabling over 500 students to pursue their dreams." },
-        { icon: Droplet, text: "Providing clean drinking water solutions in rural areas, impacting 10+ villages with sustainable water systems." },
-        { icon: Heart, text: "Sponsoring medical camps and health awareness programs, serving thousands with free healthcare annually." },
-        { icon: Users, text: "Supporting local cultural and religious events to preserve traditions, fostering community pride and unity." },
-        { icon: Briefcase, text: "Organizing skill development programs for women empowerment, training 200+ women in vocational skills." },
-        { icon: Leaf, text: "Plantation drives and environmental conservation activities, planting 1,000+ trees to combat climate change." },
-        { icon: HelpingHand, text: "Many more community development initiatives, tailored to local needs and aspirations." }
-    ];
+  { 
+    icon: BookOpen, 
+    text: "Supported salaries of all employees throughout the pandemic for an entire year." 
+  },
+  { 
+    icon: Droplet, 
+    text: "Sponsored charitable causes, with donations given to the PM Relief Fund to assist in national recovery efforts." 
+  },
+  { 
+    icon: Heart, 
+    text: "Food served during Ganesh Chaturthi celebrations, fostering community togetherness." 
+  },
+  { 
+    icon: Users, 
+    text: "Charitable donations made during Durga Pooja, contributing to the community’s cultural and spiritual activities." 
+  },
+  { 
+    icon: Briefcase, 
+    text: "Food served for 1,300+ people at the TTD temple, ensuring no one goes hungry during significant religious events." 
+  },
+  { 
+    icon: Leaf, 
+    text: "Monthly grocery food supplies and toys sponsored for orphanages, supporting vulnerable children." 
+  },
+  { 
+    icon: HelpingHand, 
+    text: "Many more community development initiatives, tailored to local needs and aspirations."
+  }
+];
 
     return (
         <>

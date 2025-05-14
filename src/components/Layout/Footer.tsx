@@ -23,10 +23,8 @@ const Footer: React.FC = () => {
   ];
 
   const socialLinks: SocialLink[] = [
-    { platform: 'Facebook', icon: 'facebook', href: 'https://facebook.com/' },
     { platform: 'Instagram', icon: 'instagram', href: 'https://instagram.com/aadriti_constructions' },
-    { platform: 'Twitter', icon: 'twitter', href: 'https://twitter.com/' },
-    { platform: 'LinkedIn', icon: 'linkedin', href: 'https://linkedin.com/' }
+  
   ];
 
   const renderSocialIcon = (icon: string) => {
