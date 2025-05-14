@@ -14,6 +14,8 @@ import PhilanthropyPage from './pages/PhilanthropyPage'; // 🆕 Import added
 import WhatsAppButton from './components/UI/WhatsAppButton';
 import Loader from './components/UI/Loader';
 import NotFoundPage from './pages/404';
+import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick-theme.css";
 
 function AppContent() {
   const [isLoading, setIsLoading] = useState(true);

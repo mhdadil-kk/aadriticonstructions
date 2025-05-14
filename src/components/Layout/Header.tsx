@@ -68,11 +68,11 @@ const Header: React.FC = () => {
             {[ 
               { label: 'Home', path: '/' },
               { label: 'Know Us', path: '/know-us' },
+              { label: 'Our Journey', path: '/timeline' },
               { label: 'Services', path: '/services' },
               { label: 'Projects', path: '/projects' },
+              { label: 'Contact', path: '/contact' },
               { label: 'Philanthropy', path: '/philanthropy' },
-              { label: 'Our Journey', path: '/timeline' },
-              { label: 'Contact', path: '/contact' }
             ].map((item) => (
               <li key={item.label} className="mx-1 lg:mx-5">
                 <Link 
