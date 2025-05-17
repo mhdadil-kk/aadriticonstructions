@@ -11,15 +11,15 @@ const PhilanthropyPage = () => {
 
     const felicitationImages = [
         {
-            src: "https://media-hosting.imagekit.io/d88251b7a9ec447f/WhatsApp%20Image%202025-05-14%20at%2010.20.06_1091db45.jpg?Expires=1841808900&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=U1IrgqoBwitqVyyv92GocAm-WOyOKUx6xlKekmXiXciSHgdtdZf3udGxYvmAHeos~iQUW99-sixzNZXbos696YAKA~KEmuNj~hNYtpwcW6bLfowUXj-4CP6l2nH~~g4EI8hiP5TxbJufyK1Qi2VTskA0lZAoLYACoSYaLx0glgUPOMK8SM9F53fONiw4JL~P6LpVK9zig7PYjqQJMMBwgrJDW3IeQRrU6SmJDiFGxo9bfgpTXmY2CvbBa3BH4aGLQ8-eCsiv93aPqGooI2-9dCk2mAgzBehlxDgfm9ff2JoOb5Dztg6MfKtMcIsg6j134ooPWC~FD5va-G6r88V-2Q__",
+            src: "https://ik.imagekit.io/ln0l6bblz/WhatsApp%20Image%202025-05-14%20at%2010.20.06_4479c997.jpg?updatedAt=1747472752408",
             alt: "Felicitated for charitable donation"
         },
         {
-            src: "https://media-hosting.imagekit.io/bc9f250173884e2c/WhatsApp%20Image%202025-05-14%20at%2010.23.30_57b0c688.jpg?Expires=1841808920&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=fg07xYBQc0OG6YMiLH0-KF8UvyQBNk7LEKFnM~dvCl4-lqizB~kQTFm0SZeCnyNdRRz7iSdxGujBfYg67HdeU5bacugzi3v5hrVcqyJtHO18096pyZzJQbdp8iB5bdDCJdzMpGeJsTsEHY49iL80EVBYnAyU1agK-mNkHfvxvwnPXFI4jV8biE2pjSrx4XF0mZEgk1~o90euoOR2Iekz83xWRiGaE5DVsNY4hjw1lp4mOEZ6lz1TkQQq2jA4jfjfY7k9pQwJ75YcBIG39FiBfm07w8YASPaP-~h4jmPa393XZu7lGntARGvbP6IclBye6kBDicvvr-KS~6q8xQZXiw__",
+            src: "https://ik.imagekit.io/ln0l6bblz/WhatsApp%20Image%202025-05-14%20at%2010.23.30_b3c5b192.jpg?updatedAt=1747472752102",
             alt: "Felicitated for charitable donation"
         },
         {
-            src: "https://media-hosting.imagekit.io/855ed5845b7c4184/WhatsApp%20Image%202025-05-14%20at%2010.23.30_bbfb7707.jpg?Expires=1841808922&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=0fjLvti~Gg6cJzutL7bELSVWwgN8BBKOUxwXWWzyjlbwvCAGOaxgbI9eYqcSUPkMZdQO1ANWkSAVFtibmrwrn--dsTyXmJdj8Hn-GIdV0pyUWG7lKntrrvIcNok8r14bNMTPw-qXTRj17hOOhnSj-LCuEyYLaWV5Z0~pe14~0YIlk5yWq6Cbp~QOjwubScW4I14wFkReUsQVa5jeXG9b~ufuLLBGew3oFaXJ60JEsuSB91A7SNr0RT8LBF8Fyv8s9NeS2Rj~iX8b2lMDACsRoCzB8ks7a4OwDanuvUWYCgADYJ67AgII7SCUCMnu6gmWvWey2lXb-HqgYVAiM8nHyA__",
+            src: "https://ik.imagekit.io/ln0l6bblz/WhatsApp%20Image%202025-05-14%20at%2010.23.30_a26d7062.jpg?updatedAt=1747472752140",
             alt: "Felicitated for charitable donation"
         }
     ];
@@ -41,13 +41,13 @@ const PhilanthropyPage = () => {
 
     const directorImages = [
         {
-            src: "https://media-hosting.imagekit.io/d288fa8e9eb04ca6/IMG-20250514-WA0016[1].jpg?Expires=1841813009&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=1vUFCcreEVFMwFCo1GthPn-9etYKROwoidH0d1IXxO~2WV~unrgVWJoIL6uCjz9ANe3As-nH9ZPLfvK2blOOgiEhqhYGJ3IxmM6AwZt2y6uGJokdIimirJzRFZUXk93KNdoKq5DcIgd45MiCjZ515DOnpK~NnPdk1eFZ-6~J2yXdvV-ZftUxXsOELoYssyNuxl4kWpyy0PWwMw43U0MFtrOq1jCpoqQ~s48tLLv~Ljpn9RiLy7RR3hPus-8jXnAcecbYQRxNRG30JYzuYFmzfKsem0svI1UwXO8Ll2M4vojgbltaLAIooqTKDovPfOclvdwZ~T77uWpUUZKCWC8lPQ__",
+            src: "https://ik.imagekit.io/ln0l6bblz/WhatsApp%20Image%202025-05-14%20at%2009.57.32_b7dc06d7.jpg?updatedAt=1747471337422",
             alt: "Director 1",
             name: "Anil Reddy Annula",
             position: "Managing Director & CEO"
         },
         {
-            src: "https://media-hosting.imagekit.io/6e882376e5c64b8b/IMG-20250514-WA0018[1].jpg?Expires=1841813023&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=rJOXXV41zZ3AoUcmGmHuKEkG6zay219i3pNZH40muceKqKHGndqkzdSTXdLrh-94K4TSHbcn47lRjCxu~owJeKoNi59yzJyjsFsRAGgOA0Zuxb7q2ozoNAq4Gve1BDljO9Q5P4oe1Sx9kqTXNtWuzYuWOh86PEpT57pDMcHxBGif9mudMVpNd5AxRow020mREUTsoeDSiGwHoAGGjybtS8ZXgtJ0W3KkaJmmjxZLxnZ0hxCXzDNWcgO3WOd7kEAZfhoL0FRnNbQ04QViHxW0er77w-5kSUjQREAa0oIY-bd9NCd~hrvx0YuvqC9Llk1Ai4LNkZ6~g~FSc2Moo8XFCg__",
+            src: "https://ik.imagekit.io/ln0l6bblz/WhatsApp%20Image%202025-05-14%20at%2009.57.33_cb3bdc7d.jpg?updatedAt=1747471337452",
             alt: "Director 2",
             name: "Ajitha Reddy Annula",
             position: "Director & CTO"

@@ -11,14 +11,14 @@ const KnowUsPage: React.FC = () => {
     {
       name: "Anil Reddy Annula",
       position: "Managing Director & CEO",
-      image: "https://media-hosting.imagekit.io/fc61513b2da54f2a/image1.jpg?Expires=1841805930&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=LlDDffNzcHyyZkA4gFsQfVcTc7AtIu9BStNnOTUbb8GAAsaW7Cv3z0Bj9WFCmqYMbnSVAJTYil5rLU1zz4GFKnT~CSvsUmX6tfO5EC6RsqaBz4CeFrcwiN4PvQxZfG-jZLRa8lMCuPtRCJ7wcYm0APxJDtyDJuv4B28xmLOTgx6VuxfMSjLrIb6rbg~dnwv7YyzoJL6p1KmSGrr6XMhnM1miNgx0LF6P2tJZhZKejo2HOkFZC9ABp-WANWWvdtMSZ4lGHscImKuvKJVUQefbTfrCWLmAU1aFRKf9K4N5D5IqQfO~bV1JY5UPdt9ubbaHMesEcBc34MhgrWvIlUkghg__",
+      image: "https://ik.imagekit.io/ln0l6bblz/WhatsApp%20Image%202025-05-14%20at%2009.57.32_42ab04ee.jpg?updatedAt=1747471337456",
 
       description: "With an MBA and extensive experience in construction, Anil leads with vision and strategic direction."
     },
     {
       name: "Ajitha Reddy Annula",
       position: "Director & CTO",
-      image: "https://media-hosting.imagekit.io/ec98d2e2ac504643/image2.jpg?Expires=1841805932&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=2mgbhQM7Au1~Wc1~L3L5YUDNVgCVzEp1qjhxoCFNT5WR6ARByPYzTQApzLfUijXZUdRijEUBpL4q9npXqgHtOu-nF04YMFxsF2By8ngMvhvv~WvDH8Hrij5WxkZA3jqgcRMAw-tK0W2Xd1D3j9zoTmASc6OPDgvy9aHyWZ7KHcCAQ9uDv~dTAbI4HdbFUfLYn57d-KGIlh~hDs8dQPlg0If8USkNBiFHb~NxUO176r2jHEoqWLjpYS3q4V5PKLGDYS1LeuL53BsugGC66862h3SB8u2~qUfyTZUVanTBiGBg7TRuFygMEtXsQu4LBmoiwiOeuj6lj42JcWvP9d1bCA__",
+      image: "https://ik.imagekit.io/ln0l6bblz/WhatsApp%20Image%202025-05-14%20at%2009.57.32_ad17a39f.jpg?updatedAt=1747471336094",
       description: "Specializing in Urban Planning & Architecture, bringing technical expertise to all projects."
     }
   ];

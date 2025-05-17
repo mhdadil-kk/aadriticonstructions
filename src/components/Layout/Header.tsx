@@ -26,10 +26,10 @@ const Header: React.FC = () => {
   };
 
   // Mobile image URL
-  const mobileLogoUrl = "https://media-hosting.imagekit.io/3fdefc8434514bc8/WhatsApp%20Image%202025-04-28%20at%2011.47.14_b865ffd0.jpg?Expires=1840429120&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=fhNks3hbGhp4pXuFvAK-7qBLh4WYhSblhxZGWfPu9a1qIXt2im8-ixBRP-4Xwotz5XXm75on-5EPFwDJ0IUCwkW4LXwXiUjwRHVBS4B0qcn2cweQjoXSJ1akSebIDW8T~zs6hHwM05~k4kRvOqiLn9mdhTOkUl1ZUTedO36osR~J2LCwyS5zcASbVoSel5SoWZXtH8U1p1sIXKiIRT7LhxGLYT4iyaKqPqu8QMZcuDV7CWkDlk4ibpRCJo~ya-k3upjDJFB3MqSZpRYES1oyZZFbX4-0Rk08e0J3oNTwqtSfMNWJSjR5RMS7Dz~5vIzRCBobI0AMEDxAyxpGbwwCMQ__";
+  const mobileLogoUrl = "https://ik.imagekit.io/ln0l6bblz/aadriti_logo_mob?updatedAt=1747472104153";
   
   // Desktop/laptop image URL
-  const desktopLogoUrl = "https://media-hosting.imagekit.io/b06addc70c0e4fe2/Pi7_Tool_WhatsApp%20Image%202025-04-28%20at%2011.47.14_b865ffd0%20(5).jpg?Expires=1840441601&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=frn13tWf8s4YoA9j8xmTVv4ydaixns3chWXI27ufg9Z28A9LwkVbuTllcReJw9tv0wBH6p3wbBjQfnZkTqdUvtJkZ0YhtL1THbHmZm-Neoz4sXW~UsvjB6j42aqvNSjeWuueCn4vIN4Hy2eCzuj7ZoID5ywwLWXxWa6d4q4kHyYapeDgtmeyp7Cxd7bXUeRf6vou-rXWliysZ4gSM0ogtlXgUTeFPRDcqWGUTCxyEaNS8MPGcz6SKfdEGPHzw6HveNfVyUvKVYXwoVLqHpOTn620j2jyOefFClpl5elPsEP9XJhpgi6cpEU3aTnsFFRyw6TBzbwRttKNN8iF1E-jhQ__";
+  const desktopLogoUrl = "https://ik.imagekit.io/ln0l6bblz/aadriti_logo?updatedAt=1747472155554";
 
   return (
     <header className="fixed top-0 w-full z-50 bg-white shadow-md">
